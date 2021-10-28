@@ -1,0 +1,117 @@
+.product{
+  display: flex;
+  justify-content: center;
+  &__text{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+      font-size: 46px;
+      font-weight: 400;
+    }
+    p{
+      margin-top: 25px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #A0A0A0;
+    }
+    h4{
+      margin-top: 25px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  .product_exemples{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 670px;
+    height: 570px;
+    h3{
+      margin-top: 48px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      font-weight: 400;
+      font-size: 27px;
+    }
+    p{
+      display: flex;
+      justify-content: center;
+      margin-top: 23px;
+      a{
+        color: #000;
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: 400;
+      }
+    }
+  }
+  .featuredProducts__text{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h2{
+      font-weight: 400;
+      font-size: 33px;
+    }
+    p{
+      margin-top: 15px;
+      font-weight: 400;
+      font-size: 15px;
+      color: #A0A0A0;
+    }
+  }
+  .buttons{
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    .buttons_wrapper{
+      width: 53px;
+      display: flex;
+      justify-content: space-between;
+      button{
+        width: 7px;
+        height: 7px;
+        cursor: pointer;
+        background-color: #000;
+        border: none;
+      }
+    }
+  }
+  .slider{
+    height: 495px;
+    width: 1725px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+    .slider_item{
+      cursor: pointer;
+      width: 310px;
+      height: 495px;
+      transition: 0.25s;
+      &:hover{
+        img{
+          transition: 0.25s;
+          box-shadow: 0px 5px 10px #cccc;
+        }
+      }
+      .slider_item__name{
+        margin-top: 23px;
+      }
+      p{
+        font-size: 13px;
+        color: #A0A0A0;
+      }
+    }
+  }
+}
